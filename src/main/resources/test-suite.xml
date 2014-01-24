@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name="Wikipedia Test">
+
+    <!-- the only mandatory parameter required by the framework -->
+    <parameter name="selenium.webdriver.engine" value="chrome"/>
+
+    <test name="demo">
+        <packages>
+            <package name="com.company.*" />
+        </packages>
+    </test>
+
+</suite>
